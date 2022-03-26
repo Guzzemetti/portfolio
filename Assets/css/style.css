@@ -79,10 +79,12 @@ ul p {
 /* Page footer, includes a short message and duplicate links */
 footer {
   width: 100%;
-  padding: 8px;
+  padding: 4px;
   border-top: 2px solid black;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 20px;
+  background-color: darkcyan;
 } 
 
 footer p {
@@ -94,7 +96,9 @@ footer nav {
   font-size: 12pt;
 }
 
-/* Removes the underline for links in the a tag */
+/* Removes the underline for links in the a tag and spaces them out with padding*/
 footer a {
-  text-decoration: none
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }

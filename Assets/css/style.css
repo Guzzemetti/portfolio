@@ -13,6 +13,14 @@ header nav {
   text-align: right;
 }
 
+/* Adjusts the style for my headings within the body */
+h3 {
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+
+
 body {
 
 }

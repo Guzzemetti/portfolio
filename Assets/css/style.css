@@ -20,7 +20,7 @@ h3 {
   text-align: center;
 }
 
-
+/*
 body {
 
 }
@@ -28,6 +28,7 @@ body {
 main {
 
 }
+*/
 
 aside {
   display: flex;
@@ -52,11 +53,13 @@ section {
     display: flex;
     flex-direction: column;
 }
-/*
-#picture-self {
 
+#picture-self {
+  object-fit: contain;
+  
 }
-*/
+
+
 /* Ensures that the info within my contact info section wraps and styles appropriately */
 #contact-info {
     display: flex;

@@ -75,12 +75,26 @@ ul p {
 
 }
 */
+
+/* Page footer, includes a short message and duplicate links */
 footer {
   width: 100%;
+  padding: 8px;
   border-top: 2px solid black;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 } 
 
+footer p {
+  font-size: 10pt; 
+}
+
 footer nav {
-  text-align: center;
   font-size: larger;
+  font-size: 12pt;
+}
+
+/* Removes the underline for links in the a tag */
+footer a {
+  text-decoration: none
 }

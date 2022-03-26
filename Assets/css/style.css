@@ -8,7 +8,7 @@ header {
 }
 
 /* Brings nav links to the right side of the page */
-nav {
+header nav {
   text-align: right;
 }
 
@@ -60,7 +60,12 @@ section {
 #work-history {
 
 }
-
+*/
 footer {
 
-} */
+} 
+
+footer nav {
+  text-align: center;
+  font-size: larger;
+}

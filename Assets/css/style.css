@@ -83,7 +83,7 @@ article {
 /* Controls the size of the image in the picture-self article */
 img {
   display: block;
-  width: 300px;
+  width: 500px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -105,7 +105,7 @@ img {
 #contact-info {
     display: flex;
     flex-wrap: wrap;
-    height: 280px;
+    height: 80px;
 }
 
 /* affects p tages within any unordered list in the html */
@@ -130,23 +130,14 @@ ul p {
   height: 300px;
 }
 
-
+/* individual projects to display within my work history
+these should link in a new tab if possible */
 #project-1,
 #project-2,
 #project-3 {
   border: 2px solid black;
   margin: 10px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* Page footer, includes a short message and duplicate links */

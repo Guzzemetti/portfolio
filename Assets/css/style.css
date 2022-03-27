@@ -21,6 +21,7 @@ header nav {
   align-self: end;
 }
 
+/* Removes underline from links and colors them */
 nav a {
   text-decoration: none;
   color: crimson;

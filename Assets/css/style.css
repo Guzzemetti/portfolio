@@ -30,7 +30,7 @@ nav a {
 }
 
 /* Adjusts the style for my headings within the body */
-h1,h3 {
+h3 {
   font-size: larger;
   font-weight: bold;
   text-align: center;
@@ -166,3 +166,20 @@ footer a {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+/* Here is where my media tags will live */
+
+@media screen and (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+    .personal-info,
+    .straight-facts {
+      width: auto;
+    }
+    header {
+      height: auto;
+    }
+  }

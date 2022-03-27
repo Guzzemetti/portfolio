@@ -34,12 +34,18 @@ aside {
   display: flex;
   justify-self: end;
 }
+
+/* removed div from html 3/27 */
 /* 
 div {
 
 } */
 
 section {
+  display: flex;
+}
+
+article {
     width: 500px;
   height: 200px;
   padding: 20px;
@@ -51,7 +57,7 @@ section {
 
  .personal-info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #picture-self {
@@ -76,8 +82,10 @@ ul p {
 .straight-facts {
   display: flex;
     flex-direction: column;
+    align-self: baseline;
 }
-/*
+
+
 #about-me {
 
 }
@@ -85,7 +93,6 @@ ul p {
 #work-history {
 
 }
-*/
 
 /* Page footer, includes a short message and duplicate links */
 footer {

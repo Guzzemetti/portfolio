@@ -46,8 +46,8 @@ section {
 }
 
 article {
-    width: 500px;
-  height: 200px;
+    width: 50%;
+  height: 400px;
   padding: 20px;
   border: 8px solid red;
   background: yellow;
@@ -55,9 +55,15 @@ article {
   flex-direction: column;
 }
 
+/* Controls the size of the image in the picture-self article */
+img {
+  width: 300px;
+  height: auto;
+}
+
  .personal-info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #picture-self {
@@ -78,14 +84,13 @@ ul p {
   display: inline-flex;
   margin: 2px;
 }
-
+*/
 .straight-facts {
   display: flex;
     flex-direction: column;
-    align-self: baseline;
 }
 
-
+/*
 #about-me {
 
 }

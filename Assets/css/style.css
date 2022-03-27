@@ -95,7 +95,7 @@ img {
 }
 
 #picture-self {
-  object-fit: contain;
+  /* object-fit: contain; */
   border-radius: 80px 25px;
 }
 

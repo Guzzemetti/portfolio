@@ -71,6 +71,7 @@ section {
 
 article {
   padding: 20px;
+  margin: 10px;
   border: 8px solid red;
   background: yellow;
   display: flex;
@@ -111,17 +112,36 @@ ul p {
 .straight-facts {
     flex-direction: column;
     width: 66.66%;
-    height: auto;
 }
 
-/*
+
 #about-me {
-
+  height: 300px;
 }
+
 
 #work-history {
-
+  height: 300px;
 }
+
+
+#project-1,
+#project-2,
+#project-3 {
+  border: 2px solid black;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Page footer, includes a short message and duplicate links */
 footer {

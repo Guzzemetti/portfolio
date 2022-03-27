@@ -6,24 +6,41 @@
 }
 
 
-
+/* Added font from web host */
 header {
   width: 100%;
   height: 100px;
   background: grey;
   border-bottom: 2px solid black;
+  font-family: 'Rubik Mono One', sans-serif;
 }
 
 /* Brings nav links to the right side of the page */
 header nav {
   text-align: right;
+  align-self: end;
+}
+
+nav a {
+  text-decoration: none;
+  color: crimson;
 }
 
 /* Adjusts the style for my headings within the body */
-h3 {
+h1,h3 {
   font-size: larger;
   font-weight: bold;
   text-align: center;
+}
+
+/* sets the size of my name in the header and formats it to give it space
+from the edge of the screen */
+h1 {
+  font-size: 75px;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  
 }
 
 /*
@@ -70,6 +87,7 @@ img {
 
 #picture-self {
   object-fit: contain;
+  border-radius: 80px 25px;
 }
 
 

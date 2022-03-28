@@ -10,6 +10,7 @@
 * {
   max-width: auto;
   font-family: 'Source Sans Pro', sans-serif;
+  
 }
 
 
@@ -17,7 +18,7 @@
 header {
   width: 100%;
   height: 100px;
-  background: #05386b;
+  background: #1f2833;
   border-bottom: 2px solid black;
   font-family: 'Rubik Mono One', sans-serif;
 }
@@ -65,6 +66,8 @@ info and about me articles */
 main {
   display: flex;
   flex-direction: row;
+  background-color: #05386b;
+  border: 3pt solid black;
 }
 
 /*
@@ -81,7 +84,6 @@ section {
 article {
   padding: 20px;
   margin: 10px;
-  border: 8px solid red;
   background: var(--bluegrey);
   display: flex;
   flex-direction: column;
@@ -173,7 +175,6 @@ these should link in a new tab if possible */
 footer {
   width: 100%;
   padding: 4px;
-  border-top: 2px solid black;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 20px;

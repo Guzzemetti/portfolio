@@ -88,10 +88,12 @@ article {
 }
 
 /* Controls the size of the image in the picture-self article */
+/* max-width is what allows the image to scale with the rest of the container */
  img {
   display: block;
   width: auto;
-  height: 500px;
+  max-width: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   contain: content;

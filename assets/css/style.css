@@ -77,10 +77,11 @@ section {
   display: flex;
 }
 
+/* Sets the style for all four articles */
 article {
   padding: 20px;
   margin: 10px;
-  border: 8px solid red;
+  border: 8px solid var(--teatree);
   background: var(--bluegrey);
   display: flex;
   flex-direction: column;

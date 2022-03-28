@@ -31,7 +31,7 @@ header nav {
 /* Removes underline from links and colors them */
 nav a {
   text-decoration: none;
-  color: crimson;
+  color: var(--mint);
   margin-bottom: 8px;
   margin-right: 20px;
 }
@@ -50,14 +50,13 @@ h1 {
   text-align: left;
   padding-top: 10px;
   padding-left: 10px;
-  color: var(--teatree);
+  color: var(--mint);
 }
 
 
-/* body {
-  display: flex;
-  justify-content: baseline;
-} */
+body {
+    background-color: var(--black);
+}
 
 
 /* This is what splits my page into two colums, for my personal 

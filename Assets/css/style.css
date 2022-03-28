@@ -150,7 +150,12 @@ ul p {
 .project-cards {
   border: 2pt solid black;
   height: 250px;
-  /* justify-content:center; */
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  flex: 1;
+  flex-basis: 400px;
 }
 
 /* individual projects to display within my work history
@@ -163,11 +168,18 @@ these should link in a new tab if possible */
   border: 2px solid black;
   margin: 20px;
   display: flex;
-  justify-content: space-around;
-
 }
 
 #project-1 {
+  display: flex;
+  flex-grow: 2;
+}
+
+
+#project-2,
+#project-3, 
+#project-4,
+#project-5{
   display: flex;
 }
 

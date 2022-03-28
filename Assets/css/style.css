@@ -186,9 +186,9 @@ footer a {
   }
     .personal-info,
     .straight-facts {
-      width: 50%;
+      width: 50%;    
     }
-    header {
+      header {
       height: auto;
     }
   }

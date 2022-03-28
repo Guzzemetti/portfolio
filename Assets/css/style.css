@@ -137,12 +137,23 @@ ul p {
   height: 458px;
 }
 
+/* Div container for my project cards */
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  margin: 10px;
+  width: 98%;
+  height: 98%;
+  border: 2px solid black;
+}
+
+
 /* individual projects to display within my work history
 these should link in a new tab if possible */
 #project-1,
 #project-2,
 #project-3 {
-  justify-content: space-around;
   border: 2px solid black;
   margin: 20px;
 }

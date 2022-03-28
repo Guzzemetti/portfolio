@@ -45,12 +45,12 @@ h1 {
   color: purple;
 }
 
-/*
-body {
+
+/* body {
   display: flex;
   justify-content: baseline;
-}
-*/
+} */
+
 
 /* This is what splits my page into two colums, for my personal 
 info and about me articles */
@@ -80,13 +80,14 @@ article {
 }
 
 /* Controls the size of the image in the picture-self article */
-img {
+ img {
   display: block;
-  width: 500px;
+  width: 100%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-}
+  contain: content;
+} 
 
  .personal-info {
     flex-direction: column;
@@ -94,9 +95,15 @@ img {
     height: auto;
 }
 
+
+#picture {
+  height: auto;
+}
+
 #picture-self {
   /* object-fit: contain; */
   border-radius: 80px 25px;
+  
 }
 
 
@@ -117,16 +124,17 @@ ul p {
 .straight-facts {
     flex-direction: column;
     width: 66.66%;
+    line-height: 15pt;
 }
 
 
 #about-me {
-  height: 300px;
+  height: 200px;
 }
 
 
 #work-history {
-  height: 300px;
+  height: 458px;
 }
 
 /* individual projects to display within my work history
@@ -134,8 +142,9 @@ these should link in a new tab if possible */
 #project-1,
 #project-2,
 #project-3 {
+  justify-content: space-around;
   border: 2px solid black;
-  margin: 10px;
+  margin: 20px;
 }
 
 
@@ -168,13 +177,29 @@ footer a {
 
 /* Here is where my media tags will live */
 
+
+@media screen and (max-width: 996px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+    .personal-info,
+    .straight-facts {
+      width: 50%;
+    }
+    header {
+      height: auto;
+    }
+  }
+
 @media screen and (max-width: 768px) {
   main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
-    .personal-info,
+    .personal-info, 
     .straight-facts {
       width: auto;
     }
@@ -182,3 +207,5 @@ footer a {
       height: auto;
     }
   }
+
+

@@ -1,3 +1,11 @@
+:root {
+  --black: #0b0c10;
+  --mint: #5cdb95;
+  --teatree: #3b945e;
+  --bluegrey: #45a29e;
+
+}
+
 
 * {
   max-width: auto;
@@ -9,7 +17,7 @@
 header {
   width: 100%;
   height: 100px;
-  background: grey;
+  background: #05386b;
   border-bottom: 2px solid black;
   font-family: 'Rubik Mono One', sans-serif;
 }
@@ -42,7 +50,7 @@ h1 {
   text-align: left;
   padding-top: 10px;
   padding-left: 10px;
-  color: purple;
+  color: var(--teatree);
 }
 
 
@@ -74,7 +82,7 @@ article {
   padding: 20px;
   margin: 10px;
   border: 8px solid red;
-  background: yellow;
+  background: var(--bluegrey);
   display: flex;
   flex-direction: column;
 }

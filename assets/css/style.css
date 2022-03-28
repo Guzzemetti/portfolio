@@ -90,11 +90,12 @@ article {
 /* Controls the size of the image in the picture-self article */
  img {
   display: block;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
   contain: content;
+  border-radius: 10%;
 } 
 
  .personal-info {
@@ -111,7 +112,7 @@ article {
 #picture-self {
   /* object-fit: contain; */
   border-radius: 80px 25px;
-  
+  margin: 15pt;
 }
 
 
@@ -119,7 +120,9 @@ article {
 #contact-info {
     display: flex;
     flex-wrap: wrap;
-    height: 80px;
+    height: 100px;
+    margin: 15pt;
+    border-radius: 80px 25px;
 }
 
 /* affects p tages within any unordered list in the html */
@@ -138,11 +141,15 @@ ul p {
 
 #about-me {
   height: 200px;
+  margin: 15pt;
+    border-radius: 80px 25px;
 }
 
 
 #work-history {
   height: 458px;
+  margin: 15pt;
+    border-radius: 80px 25px;
 }
 
 .project-cards {

@@ -127,7 +127,7 @@ article {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 15%;
+    height: 20%;
     border-radius: 80px 25px;
     contain: content;
 }
@@ -246,29 +246,30 @@ footer a {
 
 /* Here is where my media tags will live */
 @media screen and (max-width: 996px) {
-  main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-    .personal-info {
-      width: 40%;
-      height: auto;
-    }
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
-    .straight-facts {
-      width: 56%;    
-      height: auto;
-    }
-      header {
-      height: auto;
-    }
+.personal-info {
+  width: 40%;
+  height: auto;
+}
 
-    h1 {
-      max-width: 100%;
-      font-size: xx-large;
-    }
-  }
+.straight-facts {
+  width: 60%;    
+  height: auto;
+}
+  header {
+  height: auto;
+}
+
+h1 {
+  max-width: 100%;
+  font-size: xx-large;
+}
+}
 
 @media screen and (max-width: 768px) {
   main {

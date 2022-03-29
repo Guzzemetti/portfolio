@@ -183,10 +183,12 @@ these should link in a new tab if possible */
   margin: 1rem;
   display: flex;
   height: 3rem;
+
 }
 
 #project-1 {
   display: flex; 
+  height: 33%;
 }
 
 h2 {
@@ -282,6 +284,26 @@ footer a {
       max-width: 100%;
       font-size: large;
     }
+
+  
+  #project-2,
+  #project-3, 
+  #project-4,
+  #project-5{
+    border: 2px solid black;
+    border-radius: 10px 10px;
+    margin: 1rem;
+    display: flex;
+    height: 2rem;
+  }
+
+  #project-1 {
+    height: 4rem;
+    border: 2px solid black;
+    border-radius: 10px 10px;
+    margin: 1rem;
+    display: flex;
+  }
   }
 
 

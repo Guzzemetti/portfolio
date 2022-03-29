@@ -205,8 +205,10 @@ h2 {
 
 /* Page footer, includes a short message and duplicate links */
 footer {
+  position: absolute;
+  top: 100%;
   width: 100%;
-  height: auto;
+  /* height: 2rem; */
   padding: 4px;
   border-top: 2px solid black;
   text-align: center;

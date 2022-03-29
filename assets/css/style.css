@@ -18,8 +18,8 @@
 header {
   width: 100%;
   height: 100px;
-  background: #05386b;
-  border-bottom: 2px solid black;
+  background: #1f2833;
+  border-bottom: 2px solid var(--mint);
   font-family: 'Rubik Mono One', sans-serif;
 }
 
@@ -43,8 +43,7 @@ h3 {
   font-weight: bold;
   text-align: center;
   margin: 10px;
-  /* max-width: 100%;
-  height: auto; */
+  font-family: monospace
 }
 
 /* sets the size of my name in the header and formats it to give it space
@@ -59,7 +58,7 @@ h1 {
 
 
 body {
-    background-color: var(--black);
+    background-color: #182628;
 }
 
 
@@ -86,7 +85,7 @@ article {
   padding: 20px;
   margin: 10px;
   border: 8px solid var(--teatree);
-  background: var(--bluegrey);
+  background: #8EE4AF;
   display: flex;
   flex-direction: column;
 }
@@ -183,7 +182,7 @@ these should link in a new tab if possible */
   margin: 1rem;
   display: flex;
   height: 3rem;
-
+  background-image: url(/assets/images/matrix.jpg);
 }
 
 #project-1 {
@@ -196,12 +195,12 @@ h2 {
   align-self: center;
   font-style: normal;
   font-size: xx-large;
-  color: black;
+  color: white;
+  font-family: monospace;
 }
 
 /* Page footer, includes a short message and duplicate links */
 footer {
-  margin-bottom: 0;
   width: 100%;
   height: auto;
   padding: 4px;
@@ -209,7 +208,7 @@ footer {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 20px;
-  background-color: darkcyan;
+  background-color: var(--teatree);
 } 
 
 footer p {

@@ -239,6 +239,11 @@ footer a {
       header {
       height: auto;
     }
+
+    h1 {
+      max-width: 100%;
+      font-size: xx-large;
+    }
   }
 
 @media screen and (max-width: 768px) {
@@ -261,10 +266,13 @@ footer a {
     height: 89%;
     width: 80%;
   }
-
-  }
     header {
       height: auto;
+    }
+
+    h1 {
+      max-width: 100%;
+      font-size: large;
     }
   }
 

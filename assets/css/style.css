@@ -8,7 +8,8 @@
 
 
 * {
-  max-width: auto;
+  max-width: 100%;
+  max-height: 100%;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -131,11 +132,6 @@ article {
     contain: content;
 }
 
-/* Styling for my Contact Method header */
-/* #contact-methods {
-
-} */
-
 ul {
   display: flex;
   flex-direction:column;
@@ -155,16 +151,16 @@ ul a {
 
 
 #about-me {
-  height: 200px;
+  height: 39%;
   margin: 15pt;
-    border-radius: 80px 25px;
+  border-radius: 80px 25px;
 }
 
 
 #work-history {
-  height: 458px;
+  height: 60%;
   margin: 15pt;
-    border-radius: 80px 25px;
+  border-radius: 80px 25px;
 }
 
 .project-cards {
@@ -193,7 +189,10 @@ these should link in a new tab if possible */
 
 /* Page footer, includes a short message and duplicate links */
 footer {
+  position: fixed;
+  margin-bottom: 0;
   width: 100%;
+  height: auto;
   padding: 4px;
   border-top: 2px solid black;
   text-align: center;
